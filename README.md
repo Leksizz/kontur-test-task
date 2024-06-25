@@ -8,7 +8,7 @@
 
 Склонируйте репозиторий в вашу рабочую директорию:
 
-```https://github.com/Leksizz/kontur-test-task.git```
+```git clone https://github.com/Leksizz/kontur-test-task.git```
 
 Установите необходимые зависимости
 
