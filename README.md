@@ -50,3 +50,18 @@ DB_PASSWORD=
 Для запуска работы очередей выполните команду: 
 
 ```php artisan queue:work```
+
+## Электронные письма
+
+Настройте получение и отправку электронных писем в env файле в зависимости от ваших требований по примеру:
+
+```
+MAIL_MAILER=log
+MAIL_HOST=127.0.0.1
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="hello@example.com"
+MAIL_FROM_NAME="${APP_NAME}"
+```
